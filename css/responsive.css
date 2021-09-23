@@ -1,0 +1,131 @@
+@media (max-width:1170px) {
+    .container {
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+ 
+}
+@media (max-width:992px) {
+    .banner-section {
+        height: 50vh;
+    }
+}
+
+@media (max-width:800px) {
+
+}
+
+
+@media (max-width:768px) {
+    .banner-section {
+        height: 44vh;
+    }
+    .service-contetn-inner {
+        width: 50%;
+    }
+    .service-items {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .service-contetn-inner h3 {
+        font-size: 29px;
+    }
+    .service-contetn-inner span {
+        font-size: 41px;
+    }
+    .about-left-image {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .about-right-content {
+        width: 100%;
+    }
+    .about-wrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .a-first-content p {
+        font-size: 18px;
+        line-height: 29px;
+    }
+    .a-first-content h3 {
+        font-size: 26px;
+    }
+    .a-first-content {
+        text-align: center;
+    }
+    .contact-fixed-width {
+        width: 100%
+    }
+    footer {
+        padding: 5px 0px;
+    }
+   
+}
+
+
+@media (max-width:510px) {
+    .header-logo {
+        width: 100%;
+        text-align: center;
+    }
+    .header-menu {
+        float: right;
+        max-width: 100%;
+    }
+    .banner-section {
+        height: 30vh;
+    }
+    .b-inner-content h1 {
+        font-size: 33px;
+        margin-bottom: 9px;
+        text-align: center;
+    }
+    .b-inner-content p {
+        font-size: 16px;
+        margin-bottom: 22px;
+        text-align: center;
+    }
+    .header-menu ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .service-contetn-inner {
+        width: 100%;
+    }
+    .service-contetn-inner {
+        padding: 13px;
+        border: 1px solid #e2e2e2;
+        margin-bottom: 20px;
+    }
+    .service-contetn-inner p {
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+ 
+    .cotnact-conten {
+        width: 100%;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .conact-item {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .cotnact-conten span {
+      
+        font-size: 20px;
+    }
+    .cotnact-conten p {
+        font-size: 18px;
+    }
+    footer {
+        padding: 0px 0px;
+    }
+  
+}

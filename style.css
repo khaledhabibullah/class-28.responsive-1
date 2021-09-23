@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,h1,h2,h3,h4,h5,h6,p,span,a,li,strong,b{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* ----------- from hear css start------------- */
+header {
+	background: #1fc2a2;
+	padding: 8px 0px;
+}
+.d-style{
+	/*! width: 100%; */
+	overflow: hidden;
+}
+.header-logo{
+    width: 30%;
+    display: inline-block;
+}
+.header-logo h3 {
+	color: #fff;
+	margin-top: 10px;
+	font-size: 25px;
+	font-weight: 600;
+}
+.header-logo h3 span {
+	font-size: 18px;
+	display: inline-block;
+}
+
+.header-menu{
+    /*! width: 70%; */
+    display: inline-block;
+    float: right;
+}
+.header-menu ul {
+	display: flex;
+	color: #fff;
+	justify-content: end;
+	padding: 0;
+	list-style: none;
+}
+.header-menu ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 15px;
+	display: inline-block;
+	padding: 0 20px;
+	line-height: 55px;
+	text-transform: uppercase;
+}
+
+/* ------------ banner section css --------------- */
+.banner-section {
+	background: url(img/khaled1.jpg) no-repeat center center;
+	background-size: cover;
+	height: 80vh;
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+
+.b-inner-content {
+	color: #fff;
+
+}
+.b-inner-content h1 {
+	font-size: 41px;
+	font-weight: 500;
+	margin-bottom: 14px;
+}
+.b-inner-content p {
+	font-size: 16px;
+	margin-bottom: 37px;
+}
+.button{
+	color: #fff;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 500;
+	display: inline-block;
+	border: 1px solid #fff;
+	padding: 10px 20px;
+	display: block;
+	width: 96px;
+	margin: auto;
+}
+
+/* -------------- service section css------------------ */
+.service-section {
+	padding-bottom: 50px;
+	border-bottom: 2px solid #00bd9a;
+}
+.service-heading-top{padding: 45px 0px;}
+
+.service-h-content{
+    text-align: center;
+}
+.service-h-content h3{font-size: 32px;font-weight: 400;margin-bottom: 20px;color: #606060;}
+.service-h-content p{font-size: 17px;}
+
+.service-items{
+    display: flex;
+    justify-content: space-between;
+}
+.service-contetn-inner{
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.service-contetn-inner span{font-size: 36px;margin-bottom: 20px;display: inline-block;color: #00bd9a;}
+.service-contetn-inner h3{font-size: 21px;font-weight: 600;margin-bottom: 11px;}
+.service-contetn-inner p{font-size: 17px;line-height: 23px;}
+
+/* ------------ about section css---------- */
+.about-section{
+    padding: 40px 0px;
+}
+
+.about-heading{
+    text-align: center;
+}
+.about-heading h3 {
+	font-size: 27px;
+	font-weight: 600;
+	margin-top: 22px;
+	color: #606060;
+}
+.about-heading p {
+	font-size: 16px;
+	margin-bottom: 49px;
+	margin-top: 20px;
+	color: #606060;
+}
+
+.about-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.about-left-image {
+    width: 48%;
+}
+.about-left-image img {
+    max-width: 100%;
+}
+
+.about-right-content{
+    width: 48%;
+}
+.a-first-content {
+	margin-bottom: 21px;
+}
+.a-first-content h3{font-size: 20px;font-weight: 500;margin-bottom: 10px;}
+.a-first-content p {
+	font-size: 15px;
+	line-height: 25px;
+}
+
+/* --------- contact section css--------------- */
+.contact-us{
+    padding: 40px 0px;
+}
+.contact-fixed-width{
+    width: 70vw;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact-heading{}
+.contact-heading h3{font-size: 22px;font-weight: 600;color: #606060;margin-bottom: 20px;}
+.contact-heading p{margin-bottom: 57px;}
+
+.conact-item{
+    display: flex;
+    justify-content: space-between;
+}
+.cotnact-conten{
+    width: 33%;
+}
+.cotnact-conten span{color: #00bd9a;display: inline-block;margin-bottom: 10px;}
+.cotnact-conten p{line-height: 25px;font-size: 14px;}
+
+/* ------------ footer section css----------- */
+footer{
+    background: #00bd9a;
+    padding: 10px 0px;
+    text-align: center;
+    color: #fff;
+}
+.footer-menu span {
+	display: inline-block;
+	margin: 11px;
+}
